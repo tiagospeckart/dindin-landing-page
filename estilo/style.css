@@ -1,3 +1,146 @@
+/* 
+Bem vindo ao arquivo de CSS do projeto. Vamos usar este espaço aqui para deixar recados úteis para os outros. Por enquanto este esquivo está no começo, tem várias coisas que 
+só fui perceber fazendo. O que quero destacar primeiro é que cada página vai precisar de estilos próprios, fique à vontade para criar novas classes e IDs. 
+O que segue universal são estilos de cores, de alguns tipos de botões, do header e do footer.
+
+Para edições destrutivas ou refatoração, usar um galho paralelo à "main".
+
+## USO ##
+1 - do geral para o específico
+2 - elementos --> classes --> Ids
+3 - Não usar pontuação, nem underline
+
+## A FAZER ##
+No <header> o espaçamento entre BLOG e CONTATO está estranho
+
+Usar grid ou flexbox para organizar elementos (precisa desenvolver mais HTML antes para ir testando)
+Terminar de copiar CSS de https://www.figma.com/file/fBQ1nm00ynNQPK9GBwyMBc/dindin
+*/
+
 * {
     font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* tira estilo de links */
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1% 5% 1% 5%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    display: flex;
+}
+
+header ul li{
+    padding: 15px;
+}
+
+header ul li a{
+    width: 80px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+}
+
+/* Testando flexbox para fazer a disposição dos elementos */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1% 5% 1% 5%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background-color: #419488;
+}
+
+/* classe para títulos grandes rosas */
+.rosa-grande{
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+}
+
+.rosa-medio{
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+/* classe para parágrafos médios (ver font-weight no figma) */
+.texto-medio{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* classe para parágrafos pequenos*/
+.texto-pequeno{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/* cor de fundo para seção cinza */
+.bg-fundocinza{
+    background-color: #F7F7F7;
+}
+
+/* cor de fundo para retângulos */
+.bg-retangulo{
+    background-color: #C4C4C4;
+}
+
+.texto-header{
+    width: 80px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+}
+
+.btn-verde-main{
+    font-weight: 400;
+    font-size: 20px;
+    color: #Fff;
+    background-color: #2E948A;
+    border-radius: 62px;
+}
+
+#subtitulo-cinza{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
 }
