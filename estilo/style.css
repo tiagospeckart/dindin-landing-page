@@ -17,6 +17,9 @@ Usar grid ou flexbox para organizar elementos (precisa desenvolver mais HTML ant
 Terminar de copiar CSS de https://www.figma.com/file/fBQ1nm00ynNQPK9GBwyMBc/dindin
 */
 
+
+/* # ELEMENTOS # */
+
 * {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
@@ -25,9 +28,12 @@ Terminar de copiar CSS de https://www.figma.com/file/fBQ1nm00ynNQPK9GBwyMBc/dind
     margin: 0;
 }
 
-/* tira estilo de links */
 a {
     text-decoration: none;
+}
+
+main{
+    margin: 0 6%;
 }
 
 header {
@@ -45,10 +51,7 @@ header ul{
 }
 
 header ul li{
-    display: flex;
-}
-
-header ul li{
+    list-style: none;
     padding: 15px;
 }
 
@@ -59,13 +62,6 @@ header ul li a{
     line-height: 23px;
     text-transform: uppercase;
     color: #FDFDFD;
-}
-
-/* Testando flexbox para fazer a disposição dos elementos */
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 body{
@@ -82,46 +78,92 @@ footer{
     top: 0%;
     bottom: 0%;
     background-color: #419488;
+    margin-top: 5%;
 }
 
-/* classe para títulos grandes rosas */
-.rosa-grande{
+footer ul{
+    list-style: none;
+}
+
+footer ul li a{
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+button{
+    border-radius: 62px;
+    font-weight: 400;
+    font-size: 20px;
+    width: 233px;
+    height: 51px;
+}
+
+button:hover {
+    cursor:pointer;
+}
+
+/* # CLASSES # */
+
+.secao-main{
+    padding: 50px;
+}
+
+.artigo-curso{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* ## FLEX ## */
+
+.flex-vertical{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-horizontal{
+    display: flex;
+    flex-direction: row;
+}
+
+/* ## TITULO ## */
+
+.t-rosa-grande{
     color: #FF4081;
     font-weight: 700;
     font-size: 60px;
     line-height: 69px;
 }
 
-.rosa-medio{
+.t-rosa-medio{
     color: #FF4081;
     font-weight: 700;
     font-size: 35px;
     line-height: 40px;
 }
 
-/* classe para parágrafos médios (ver font-weight no figma) */
-.texto-medio{
+/* ## SUBTITULO */
+
+.sub-cinza{
+    /* 
+    A FAZER 
+    */
+}
+
+/* ## TEXTO ## */
+
+.txt-medio{
     font-weight: 400;
     font-size: 20px;
 }
 
-/* classe para parágrafos pequenos*/
-.texto-pequeno{
+.txt-pequeno{
     font-weight: 300;
     font-size: 18px;
 }
 
-/* cor de fundo para seção cinza */
-.bg-fundocinza{
-    background-color: #F7F7F7;
-}
-
-/* cor de fundo para retângulos */
-.bg-retangulo{
-    background-color: #C4C4C4;
-}
-
-.texto-header{
+.txt-header{
     width: 80px;
     font-weight: 700;
     font-size: 20px;
@@ -130,17 +172,44 @@ footer{
     color: #FDFDFD;
 }
 
-.btn-verde-main{
-    font-weight: 400;
-    font-size: 20px;
-    color: #Fff;
-    background-color: #2E948A;
-    border-radius: 62px;
+/* ## FUNDOS ## */
+
+.bg-fundocinza{
+    background-color: #F7F7F7;
 }
 
-#subtitulo-cinza{
+.bg-retangulo{
+    background-color: #C4C4C4;
+}
+
+/* ## BOTOES ## */
+
+.btn-verde-main{
+    color: #Fff;
+    background-color: #2E948A;
+    width: 300px;
+}
+
+.btn-ft{
+    border: 2px solid #FFFFFF;
+    color: #Fff;
+    background-color: #2E948A;
+    margin: 5px;
+    width: 300px;
+}
+
+#secao-subtitulo{
+    margin: 2% 0 3% 2%;
+}
+
+#subtitulo-cursos{
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
     color: #555555;
 }
+
+#secao-btn{
+    padding:5px
+}
+
