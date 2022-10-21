@@ -7,6 +7,53 @@
   text-decoration: none;
 }
 
+/*  ====== ADIÇÕES ======= */
+
+button{
+  border-radius: 62px;
+  font-weight: 400;
+  font-size: 20px;
+  width: 233px;
+  height: 51px;
+}
+
+.t-rosa-grande{
+  color: #FF4081;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 69px;
+}
+
+.t-rosa-pequeno{
+  color: #FF4081;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.sub-cinza-medio{
+  font-weight: 400;
+  font-size: 27px;
+  color: #555555;
+}
+
+#btn-rosa-branco{
+  border: 2px solid #FF4081;
+  color: #FF4081;
+  background-color: #fff;
+  margin: 5px;
+  width: 300px;
+}
+
+.banner{
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*  ============= */
+
 header {
   background-color: #2e948a;
   display: flex;

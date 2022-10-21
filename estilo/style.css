@@ -143,12 +143,19 @@ button:hover {
     line-height: 40px;
 }
 
+.t-rosa-pequeno{
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+}
+
 /* ## SUBTITULO */
 
-.sub-cinza{
-    /* 
-    A FAZER 
-    */
+.sub-cinza-medio{
+    font-weight: 400;
+    font-size: 27px;
+    color: #555555;
 }
 
 /* ## TEXTO ## */
@@ -191,6 +198,14 @@ button:hover {
 }
 
 .btn-ft{
+    border: 2px solid #FFFFFF;
+    color: #Fff;
+    background-color: #2E948A;
+    margin: 5px;
+    width: 300px;
+}
+
+.btn-rosa{
     border: 2px solid #FFFFFF;
     color: #Fff;
     background-color: #2E948A;
