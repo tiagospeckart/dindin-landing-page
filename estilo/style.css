@@ -65,7 +65,7 @@ header ul li a{
 }
 
 body{
-    background-color: #E5E5E5;
+    background-color: #ffffff;
 }
 
 footer{
@@ -79,6 +79,7 @@ footer{
     bottom: 0%;
     background-color: #419488;
     margin-top: 5%;
+    margin-bottom: 0%;
 }
 
 footer ul{
@@ -103,16 +104,38 @@ button:hover {
     cursor:pointer;
 }
 
+iframe{
+    width: 560;
+    height: 315;
+}
+
 /* # CLASSES # */
 
 .secao-main{
     padding: 50px;
 }
 
+.grid-container-curso{
+    display: grid;
+    grid-template-columns:  700px 700px;
+    grid-template-rows: 261px 261px 261px;
+    grid-template-areas: "v a" 
+                         "v a" 
+                         "v a";
+}
+
 .artigo-curso{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.grid-curso{
+    grid-area: a;
+}
+
+.grid-video{
+    grid-area: v;
 }
 
 /* ## FLEX ## */
@@ -228,3 +251,7 @@ button:hover {
     padding:5px
 }
 
+#intro-curso{
+    margin: 10rem;
+    margin-right: 15rem;
+}
