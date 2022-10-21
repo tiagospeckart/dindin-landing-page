@@ -1,59 +1,86 @@
+
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google Fonts Ubuntu de 300, 400 e 700 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="estilo/style.css">
     <title>Contato</title>
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="shortcut icon" href="./images/dindin-logo-white.png" type="image/x-icon">
+
 </head>
+
 <body>
+
+
     <header>
-        <section>
-            <img src="dindin-imagens/logo-header.png" alt="logohead">
-        </section>
+        <a href="./index.html">
+            <div class="logo">
+                <img src="./images/dindin-logo-white.png" alt="logo">
+                <h2>dindin</h2>
+            </div>
+        </a>
+
         <nav>
             <ul>
-                <li>
-                    <a target="_self" href="./cursos.html">Cursos</a>
-                </li>
-                <li>
-                    <a target="_self" href="./blog.html">Blog</a>
-                </li>
-                <li>
-                    <a target="_self" href="./contato.html">Contato</a>
-                </li>
+                <li><a href="./cursos.html">cursos</a></li>
+                <li><a href="./blog.html">blog</a></li>
+                <li><a href="./contato.html">contato</a></li>
             </ul>
         </nav>
+
+
+
     </header>
-    
-    
+
+    <main>
+        <section class="container">
+            <div class="contato">
+
+                <h2>Contato</h2>
+                <form action="">
+                    <input type="text" name="nome" placeholder="nome">
+
+                    <input type="email" name="email" placeholder="email">
+
+                    <textarea name="mensagem" id="" cols="30" rows="10" placeholder="mensagem"></textarea>
+
+                    <button>Enviar</button>
+                </form>
+            </div>
+            <div class="banner">
+                <img src="./images/ilustra-contato.png" alt="contato">
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <section>
-            <img src="dindin-imagens/logo-footer.png" alt="logofooter">
-        </section>
-        <section>
-            <ul>
-                <li>
-                    <a target="_self" href="./cursos.html">cursos</a>
-                </li>
-                <li>
-                    <a target="_self" href="./blog.html">blog</a>
-                </li>
-                <li>
-                    <a target="_self" href="./contato.html">contato</a>
-                </li>
-            </ul>
-        </section>
-        <section class="flex-vertical">
-            <button class="btn-ft">quero ser prof</Button>
-            <button class="btn-ft">aqui tem outro link</Button>
-        </section>
+        <a href="./index.html">
+            <div class="footer-logo">
+                <img src="./images/dindin-logo-white.png" alt="">
+                <div>
+                    <h2>dindin</h2>
+                    <p>Educação Financeira</p>
+                </div>
+            </div>
+        </a>
+        <div class="footer-menus">
+            <nav>
+                <ul>
+                    <li><a href="./cursos.html">cursos</a></li>
+                    <li><a href="./blog.html">blog</a></li>
+                    <li><a href="./contato.html">contato</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="footer-links">
+            <a href="">quero ser prof</a>
+            <a href="">aqui tem outro link</a>
+        </div>
     </footer>
 </body>
+
 </html>
