@@ -49,8 +49,3 @@ Create 6 static HTML pages according to the Figma design and objectives.
     </td>
   </tr>
 </table>
-
----
-
-### Licença
-Além do bom senso de referenciar uso do trabalho alheio, use como preferir. Não me responsabilizo sobre a funcionalidade da API.
