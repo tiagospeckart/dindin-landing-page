@@ -1,5 +1,5 @@
-# Landing page da empresa de cursos financeiros Dindin
-## Desafio 1 da Gama Experience
+# Dindin Financial Courses Landing Page
+## Challenge 1 of Gama Experience
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/tiagospeckart/dindin?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/tiagospeckart/dindin?style=for-the-badge)
@@ -11,24 +11,24 @@
 
 ## [Figma](https://www.figma.com/file/wMWzwSxeP97L1IEgdqVfvd/dindin-(Copy)?t=OgAOfwgPRtXddRCz-1)
 
-## Stacks
+## Tech Stack
 <code><img height="32" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/></code>
 <code><img height="32" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS"/></code>
 
-## Objetivo
-- Exercitar boas práticas em HTML
-- Exercitar boas práticas em CSS
-- Desenvolver páginas responsivas e acessíveis
+## Objective
+- Exercise best practices in HTML
+- Exercise best practices in CSS
+- Develop responsive and accessible pages
 
-## Especificações
-Criar 6 páginas HTML estáticas de acordo com o Figma e com os objetivos.
+## Specifications
+Create 6 static HTML pages according to the Figma design and objectives.
 
-## A fazer
-- Finalizar a construção de algumas páginas
-- Tornar as páginas responsivas
-- Tornar as páginas acessíveis
+## To-Do
+- Finish building some pages
+- Make pages responsive
+- Make pages accessible
 
-## Equipe
+## Team
 <table>
   <tr>
     <td align="center">
